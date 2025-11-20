@@ -2,6 +2,14 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
+  "csp": {
+    "frame-ancestors": [
+      "'self'",
+      "https://plug-platform.devrev.ai",
+      "https://api.devrev.ai",
+      "https://*.devrev.ai"
+    ]
+  },
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
